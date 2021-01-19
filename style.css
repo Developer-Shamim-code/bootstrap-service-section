@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#topBar {
+    
+}
+.topBarMain{
+    background: gray;
+}
+.container {
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    
+}
+.phone {
+    width: 210px;
+    float: left;
+    padding: 17px 0;
+    border-left: 1px solid #ddd;
+    
+  }
+  .gmail {
+    width: 814px;
+    float: left;
+    padding: 17px 0;
+    border-left: 1px solid #ddd;
+  }
+  .social {
+    width: 111px;
+    float: left;
+  }
+  .topbarWrapper{
+      overflow: hidden;
+  }
+  .social a {
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: #979393;
+    font-size: 20px;
+}
+.social a:first-child{
+    border-left: 1px solid #ddd;
+}
+/*end top header*/
+.logo {
+    width: 499px;
+    float: left;
+    padding-top: 5px
+}
+.logo img{
+    width: 70px;
+}
+.menu {
+    width: 641px;
+    float: left;
+    padding-top: 20px
+}
+.menu ul {
+    list-style: none;
+    
+  }
+  .menu ul li {
+    float: left;
+  }
+  .menu ul li a {
+    text-transform: uppercase;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    transition: 0.5s;
+
+  }
+  .menu ul li a:hover{
+    color: #FFB459;
+  }
+  /*end top menu*/
+  #homeSlider {
+    background: url(img/as.png);
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.sidercontent{
+    text-transform: uppercase;
+}
+.sidercontent h1{
+       
+    font-size: 33px;
+    font-family: initial;
+    width: 384px;
+    padding-left: 168px;;
+    padding-top: 47px;
+    
+}
+.sidercontent p {
+    width: 483px;
+    margin-left: 170px;
+    padding-top: 14px;
+}
+#sliderWorkButon {
+    background: #FFB459;
+    padding: 10px;
+    margin-bottom: 16px;
+    margin-left: 369px;
+    margin-top: 13px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 61px;
+    cursor: pointer;
+}
+#sliderWorkButon:hover {
+    background: rgb(101, 109, 109);
+    
+}
+.slidernav{
+    width: 200px;
+    margin: auto;
+    padding: 40px 0px;
+}
+.slidernav span{
+     width: 10px;
+     height: 10px;
+     background: transparent;
+     border: 4px solid rgb(192, 182, 182);
+     display: block;
+     border-radius: 100%;
+     cursor: pointer;
+     float: left;
+     margin: 5px 5px;
+
+
+}
+.slidernav span:last-child{
+    background-color: #FFB459;
+    border: #FFB459;
+
+}
+ /*end silder*/
+#services{
+    background-color: darkgray;
+
+}
+.sboxWapper {
+    overflow: hidden;
+    margin-left: 134px;
+}
+.singleBox {
+    width: 200px;
+    background-color: white;
+    float: left;
+    margin-top: 80px;
+    margin-left: 18px;
+    transition: 0.5s;
+    box-sizing: 0 0 5 white;
+    margin-bottom: 84px;
+}
+.singleBox:hover {
+    background-color: #FFB459;
+}
+  .sboxTitle {
+    font-size: 17px;
+    margin: 5px;
+  }
+  .sboxDesc {
+    font-size: 17px;
+    padding-top: 10px;
+    margin: 5px;
+  }
+  .sboxLink {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+ .sboxLink a {
+    text-decoration: none;
+    color: yellowgreen;
+    
+}
+.defult{
+    background-color: #FFB459;
+    color: white;
+}
+/*end service*/
+.teamContents {
+    margin-top: 80px;
+}
+.teamImage {
+    width: 450px;
+    float: left;
+}
+.teamImage img {
+    max-width: 100%;
+    
+}
+.teamDetails {
+    width: 450px;
+    float: left;
+    margin-left: 90px;
+}
+.titleDesc h2 {
+    font-size: 45px;
+    word-spacing: 6px;
+    letter-spacing: 3px;
+}
+.titleDesc p {
+    font-size: 21px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    padding-top: 12px;
+}
+.teamleftUl {
+    width: 200px;
+    list-style: none;
+    margin-left: 15px;
+    float: left;
+    margin-top: 12px;
+}
+.teamleftUl li {
+    margin-top: 9px;
+    text-decoration: none;
+}
+.teamrightUl {
+    width: 237px;
+    list-style: none;
+    margin-left: -10px;
+    float: left;
+    margin-top: 12px;
+}
+.teamrightUl li {
+    margin-top: 9px;
+    text-decoration: none;
+}
+.teamContactBtn {
+    margin-left: 122px;
+    margin-top: 133px;
+    width: 106px;
+    height: 190px;
+}
+.teamContactBtn a {
+    max-width: 100%;
+    background-color: #FEB254;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin: 10px;
+    font-size: 23px;
+}
+.teamContactBtn a:hover {
+    background-color: thistle;
+}
